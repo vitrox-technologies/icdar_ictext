@@ -1,0 +1,15 @@
+nav:
+  - title: "Highlights"
+    section: highlights
+
+  - title: "Challenges"
+    section: portfolio
+    
+  - title: "Timeline"
+    section: timeline
+
+  - title: "Organisers"
+    section: clients
+
+  - title: "Contact"
+    section: contact

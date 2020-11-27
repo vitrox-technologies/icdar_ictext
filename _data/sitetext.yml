@@ -1,0 +1,150 @@
+header:
+    title: Welcome to ICDAR RRC-ICText 2021!
+    text: It's Nice To Meet You
+    button: Tell Me More
+    buttonlink: "#highlights"
+
+highlights:
+    title: "Highlights"
+    text: "The highlights of ICDAR Robust Reading Challenge ICText 2021."
+    section: highlights
+    list:
+      - title: "Novel Dataset"
+        desc: "A large scale industry standard Integrated Circuit OCR dataset that include annotations of aesthetic classes on character level."
+        icon: fas fa-database #find more at https://fontawesome.com/icons
+      - title: "New Challenges"
+        desc: "3 new challenges that are focusing on practicality and performance, bridging the gap between the research community and industry."
+        icon: fas fa-tasks    
+      - title: "New Metrics"
+        desc: "Evaluate the model's overall performance, focusing on the efficiency and effectiveness of the model."
+        icon: fas fa-ruler-horizontal
+
+portfolio:
+    title: "Challenges"
+    text: "3 new tasks that are introduced in this compeition. We will use eval.ai as the main evaluation platform. 
+    Details to be announced at a later date."
+    section: portfolio
+    closebutton: "Close"
+    
+
+timeline:
+    title: "Timeline" 
+    text: "Schedule of the ICDAR 2021 Robust Reading Competition - ICText."
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Dataset Preparation"
+        year: "Dec 2020 - Feb 2021"
+        desc: "Collecting and annotating iamges. We want to make sure that the annotations are of highest quality."
+        image: assets/img/timeline/dataset_resized.jpg
+      - title: "Registration Open"
+        year: "1st Jan 2021"
+        desc: "Registration open for participants. Non-commercialisation license form has to be signed and it will be reviewed by the organisers."
+        image: assets/img/timeline/reg_resized.jpg
+      - title: "Dataset Release and Evaluation Server Online"
+        year: "1st Feb 2021"
+        desc: "Dataset will be released for download for approved participants only. Evaluation server will be launched together."
+        image: assets/img/timeline/server_resized.jpg
+      - title: "Competition Deadline"
+        year: "31st Mar 2021"
+        desc: "Result submission will close at 31st March 2021 11.59PM PST. Late submission will not be entitled for prize money."
+        image: assets/img/timeline/deadline_resized.jpg
+      - title: "Release Final Ranking"
+        year: "7th April 2021"
+        desc: "Winners of each challenges will be confirmed and announced."
+        image: assets/img/timeline/rank_resized.jpg
+        # you can enforce the aligment
+        align: left
+    # end: "JOIN US!"
+    
+# team:
+#     title: "Organisers"
+#     text: "Partner universities and corporations."
+#     # subtext: 
+#     section: team
+#     people:
+#       - name: "ViTrox Malaysia"
+#         # role: "Lead Designer"
+#         image: assets/img/team/vitrox.svg
+#         social:
+#           - url: https://www.vitrox.com/
+#             icon: fas fa-globe
+#       - name: "University of Malaya"
+#         # role: "Lead Marketer"
+#         image: assets/img/team/um.png
+#         social:
+#           - url: https://www.um.edu.my/
+#             icon: fas fa-globe
+#       - name: "South China Unversity of Technology"
+#         # role: "Lead Developer"
+#         image: assets/img/team/scut.png
+#         social:
+#           - url: http://www.dlvc-lab.net/
+#             icon: fas fa-globe
+#       - name: "The University of Adelaide"
+#         # role: "Lead Designer"
+#         image: assets/img/team/uoa.jpg
+#         social:
+#           - url: https://www.adelaide.edu.au/
+#             icon: fas fa-globe
+#       - name: "Baidu Research"
+#         # role: "Lead Marketer"
+#         image: assets/img/team/baidu.jpg
+#         social:
+#           - url: http://research.baidu.com/
+#             icon: fas fa-globe
+#       - name: "WeBank"
+#         # role: "Lead Developer"
+#         image: assets/img/team/webank.png
+#         social:
+#           - url: https://www.webank.com/
+#             icon: fas fa-globe
+
+clients:
+    section: clients
+    title: "Organisers"
+    text: "Partner universities and corporations."
+    max-height: 150px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "ViTrox Malaysia"
+        logo: assets/img/team/vitrox.svg
+        url: https://www.vitrox.com/
+      - title: "Baidu Research"
+        logo: assets/img/team/baidu.png
+        url: http://research.baidu.com/
+      - title: "South China Unversity of Technology"
+        logo: assets/img/team/scut.png
+        url: http://www.dlvc-lab.net/
+      - title: "The University of Adelaide"
+        logo: assets/img/team/uoa.png
+        url: https://www.adelaide.edu.au/
+      - title: "University of Malaya"
+        logo: assets/img/team/um.png
+        url: https://www.um.edu.my/
+      - title: "WeBank"
+        logo: assets/img/team/webank.png
+        url: https://www.webank.com/
+
+contact:
+    title: "Contact Us"
+    text: "You can fill in the form below or reach us at "
+    section: contact
+    
+footer:
+    legal: "Privacy Policy"
+    social:
+      - url: https://github.com/vitrox-technologies/icdar_ictext
+        icon: "fab fa-github"
+      # - url: https://twitter.com
+      #   icon: "fab fa-twitter"  
+      # - url: https://facebook.com
+      #   icon: "fab fa-facebook-f"
+      # - url: https://linkedin.com
+      #   icon: "fab fa-linkedin-in"
+      # - url: https://instagram.com
+      #   icon: "fab fa-instagram"
+
+
+# {{ site.data.sitetext.ex.ex | markdownify | default: example }}
