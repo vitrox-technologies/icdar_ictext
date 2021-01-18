@@ -51,7 +51,7 @@ timeline:
         desc: "Winners of each challenges will be confirmed and announced."
         image: assets/img/timeline/rank_resized.jpg
         # you can enforce the aligment
-        align: left
+#         align: left
     # end: "JOIN US!"
     
 # team:
