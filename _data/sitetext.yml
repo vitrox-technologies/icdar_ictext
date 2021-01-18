@@ -38,13 +38,9 @@ timeline:
         year: "Dec 2020 - Feb 2021"
         desc: "Collecting and annotating iamges. We want to make sure that the annotations are of highest quality."
         image: assets/img/timeline/dataset_resized.jpg
-      - title: "Registration Open"
-        year: "1st Jan 2021"
-        desc: "Registration open for participants. Non-commercialisation license form has to be signed and it will be reviewed by the organisers."
-        image: assets/img/timeline/reg_resized.jpg
-      - title: "Dataset Release and Evaluation Server Online"
+      - title: "Registration Open and Dataset Release"
         year: "1st Feb 2021"
-        desc: "Dataset will be released for download for approved participants only. Evaluation server will be launched together."
+        desc: "Registration open for participants. Non-commercialisation license form has to be signed and it will be reviewed by the organisers. Dataset will be released for download for approved participants only."
         image: assets/img/timeline/server_resized.jpg
       - title: "Competition Deadline"
         year: "31st Mar 2021"
