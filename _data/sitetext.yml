@@ -21,7 +21,7 @@ highlights:
 
 portfolio:
     title: "Challenges"
-    text: "3 new tasks that are introduced in this compeition. We host two challenges at [eval.ai](https://eval.ai/){:target="_blank"}, one for [Task 1 and 2](https://eval.ai/web/challenges/challenge-page/757){:target="_blank"} and another one for [Task 3](https://eval.ai/web/challenges/challenge-page/756){:target="_blank"}."
+    text: "3 new tasks that are introduced in this compeition. We host two challenges at [eval.ai](https://eval.ai/), one for [Task 1 and 2](https://eval.ai/web/challenges/challenge-page/757) and another one for [Task 3](https://eval.ai/web/challenges/challenge-page/756)."
     section: portfolio
     closebutton: "Close"
     
@@ -39,7 +39,7 @@ timeline:
         image: assets/img/timeline/dataset_resized.jpg
       - title: "Registration Open and Dataset Release"
         year: "1st Feb 2021"
-        desc: "Registration open for participants at [eval.ai](https://eval.ai/){:target="_blank"}, please sign up an account to participate. [Non-disclouse agreement](https://drive.google.com/file/d/122GSelN6tA48kHB3Yah6p3sTD3PTxAA3/){:target="_blank"} has to be signed and it will be reviewed by the organisers. Dataset will be released for download for approved participants only."
+        desc: "Registration open for participants at [eval.ai](https://eval.ai/), please sign up an account to participate. [Non-disclouse agreement](https://drive.google.com/file/d/122GSelN6tA48kHB3Yah6p3sTD3PTxAA3/) has to be signed and it will be reviewed by the organisers. Dataset will be released for download for approved participants only."
         image: assets/img/timeline/server_resized.jpg
       - title: "Competition Deadline"
         year: "31st Mar 2021"
