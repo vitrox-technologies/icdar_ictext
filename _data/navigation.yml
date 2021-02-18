@@ -11,5 +11,8 @@ nav:
   - title: "Organisers"
     section: clients
 
+  - title: "FAQs"
+    section: faq
+
   - title: "Contact"
     section: contact

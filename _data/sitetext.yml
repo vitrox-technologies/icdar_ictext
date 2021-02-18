@@ -20,10 +20,10 @@ highlights:
         icon: fas fa-ruler-horizontal
 
 portfolio:
-    title: "Challenges"
-    text: "3 new tasks that are introduced in this compeition. We host two challenges at [eval.ai](https://eval.ai/), one for [Task 1 and 2](https://eval.ai/web/challenges/challenge-page/756) and another one for [Task 3](https://eval.ai/web/challenges/challenge-page/757)."
-    section: portfolio
-    closebutton: "Close"
+  title: "Challenges"
+  text: "3 new tasks that are introduced in this compeition. We host two challenges at [eval.ai](https://eval.ai/), one for [Task 1 and 2](https://eval.ai/web/challenges/challenge-page/756) and another one for [Task 3](https://eval.ai/web/challenges/challenge-page/757)."
+  section: portfolio
+  closebutton: "Close"
     
 
 timeline:
@@ -121,6 +121,22 @@ clients:
       - title: "WeBank"
         logo: assets/img/team/webank.png
         url: https://www.webank.com/
+
+faq:
+    section: faq
+    title: "Frequently Asked Questions"
+    text: "You are encouraged to read them carefully."
+    list:
+      - question: "Q:\ How do we join the competition?"
+        answer: "**Answer**:\ You have to first register an account on [eval.ai](https://eval.ai/web/challenges/challenge-page/756), Then obtain and sign the NDA according to the specified standard before you email it to us. Once your NDA is verified, we will send you the training dataset and grant you access for submissions."
+      - question: "Q:\ Can you use extraining training data?"
+        answer: "**Answer**:\ Participants are allowed to use any publicly available scene text dataset or any aesthetic dataset, given that the extra data you used must be open-sourced and adhered to our Terms and Conditions. If the synthetic data generation pipeline is already open-sourced (SynthText or MJSynth or any text in-painting method), you can generate your data based on it with whatever changes you want. Then, you must open source the generation code, corpus/vocabulary, and data in general if you used them for training. As long as the generation process is replicable and the data is not privatized, then it will be fine for us. You are free to use our training data as a starting point for a synthetic dataset. By private data, we refer to the data that is accessible to you only. For instance, if you intend to use [Your Affiliation]'s in-house synthetic data generation module (which is accessible to [Your Affiliation] only) to generate synthetic data, then this is prohibited. Because this would be unfair to other participants as you are the only one accessible to such resources. Please note that any open source projects must be released under MIT license to be entitled to prize money. Refer to OPEN-SOURCE CODE and WINNERS' OBLIGATIONS in the Terms and Conditions."
+      - question: "Q:\ How are similar characters in the training dataset being differentiated?"
+        answer: "**Answer**:\ We differentiate the characters by referring to perfect images without aesthetic defects and based on the image context."
+      - question: "Q:\ Why the annotations are noisy?"
+        answer: "**Answer**:\ We have taken extensive measures to make sure that the annotations are correct. Unfortunately, we might miss out on some of them. The dataset is annotated by a few human annotators, hence it is likely to contain wrong or inconsistent labels, which might introduce additional noises to the annotations. We are rechecking the annotations and we will release an updated version before 12/02/2021."
+      - question: "Q:\ Why the Submission Status is always 'Running'?"
+        answer: "**Answer**:\ Eval.ai has allocated more resources for our challenge. We ask for your patience when you are submitting. It might take more than 60 seconds for your submission to be evaluated."
 
 contact:
     title: "Contact Us"
