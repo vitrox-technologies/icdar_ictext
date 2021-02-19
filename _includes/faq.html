@@ -22,7 +22,10 @@
 
                 <div id="collapse-{{forloop.index}}" class="collapse" aria-labelledby="heading-{{forloop.index}}" data-parent="#faqExample">
                     <div class="card-body">
-                        {{ faq.answer | markdownify}}
+                      {{ faq.answer | markdownify}}
+                      {% if forloop.index == 1 %}
+                      <div style="width: 640px; height: 480px; margin: 0 auto;"><iframe allowfullscreen frameborder="0" style="display: block; width:640px; height:480px" src="https://lucid.app/documents/embeddedchart/bd2c74ec-1dee-4c6c-b314-75400e6c0135" id="8hcdTj2wnxCu"></iframe></div>
+                      {% endif %}
                     </div>
                 </div>
             </div>
