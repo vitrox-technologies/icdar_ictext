@@ -43,7 +43,7 @@ timeline:
         image: assets/img/timeline/server_resized.jpg
       - title: "Competition Deadline"
         year: "31st Mar 2021"
-        desc: "Result submission will close at 31st March 2021 11.59PM PST. Late submission will not be entitled for prize money."
+        desc: "Result submission will close at 31st March 2021 11.59PM UTC. Late submission will not be entitled for prize money."
         image: assets/img/timeline/deadline_resized.jpg
       - title: "Release Final Ranking"
         year: "7th April 2021"
